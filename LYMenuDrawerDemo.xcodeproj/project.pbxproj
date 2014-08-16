@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AA4DC4D199F7AA500B2D672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4DC4C199F7AA500B2D672 /* Foundation.framework */; };
+		8AA4DC4F199F7AA500B2D672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4DC4E199F7AA500B2D672 /* CoreGraphics.framework */; };
+		8AA4DC51199F7AA500B2D672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4DC50199F7AA500B2D672 /* UIKit.framework */; };
+		8AA4DC57199F7AA500B2D672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4DC55199F7AA500B2D672 /* InfoPlist.strings */; };
+		8AA4DC59199F7AA500B2D672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4DC58199F7AA500B2D672 /* main.m */; };
+		8AA4DC5D199F7AA500B2D672 /* LYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4DC5C199F7AA500B2D672 /* LYAppDelegate.m */; };
+		8AA4DC63199F7AA500B2D672 /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4DC62199F7AA500B2D672 /* LYViewController.m */; };
+		8AA4DC65199F7AA500B2D672 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4DC64199F7AA500B2D672 /* Images.xcassets */; };
+		8AA4DC6C199F7AA500B2D672 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4DC6B199F7AA500B2D672 /* XCTest.framework */; };
+		8AA4DC6D199F7AA500B2D672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4DC4C199F7AA500B2D672 /* Foundation.framework */; };
+		8AA4DC6E199F7AA500B2D672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4DC50199F7AA500B2D672 /* UIKit.framework */; };
+		8AA4DC76199F7AA500B2D672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4DC74199F7AA500B2D672 /* InfoPlist.strings */; };
+		8AA4DC78199F7AA500B2D672 /* LYMenuDrawerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4DC77199F7AA500B2D672 /* LYMenuDrawerDemoTests.m */; };
+		8AA4DC8C199F7B5100B2D672 /* btn_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4DC82199F7B5100B2D672 /* btn_menu.png */; };
+		8AA4DC8D199F7B5100B2D672 /* btn_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4DC83199F7B5100B2D672 /* btn_menu@2x.png */; };
+		8AA4DC8F199F7B5100B2D672 /* LYMenuDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4DC87199F7B5100B2D672 /* LYMenuDrawerController.m */; };
+		8AA4DC91199F7B5100B2D672 /* MenuDrawer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4DC8B199F7B5100B2D672 /* MenuDrawer.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA4DC6F199F7AA500B2D672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA4DC41199F7AA500B2D672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA4DC48199F7AA500B2D672;
+			remoteInfo = LYMenuDrawerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AA4DC49199F7AA500B2D672 /* LYMenuDrawerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMenuDrawerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA4DC4C199F7AA500B2D672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AA4DC4E199F7AA500B2D672 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AA4DC50199F7AA500B2D672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AA4DC54199F7AA500B2D672 /* LYMenuDrawerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LYMenuDrawerDemo-Info.plist"; sourceTree = "<group>"; };
+		8AA4DC56199F7AA500B2D672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AA4DC58199F7AA500B2D672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AA4DC5A199F7AA500B2D672 /* LYMenuDrawerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYMenuDrawerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8AA4DC5B199F7AA500B2D672 /* LYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAppDelegate.h; sourceTree = "<group>"; };
+		8AA4DC5C199F7AA500B2D672 /* LYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAppDelegate.m; sourceTree = "<group>"; };
+		8AA4DC61199F7AA500B2D672 /* LYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYViewController.h; sourceTree = "<group>"; };
+		8AA4DC62199F7AA500B2D672 /* LYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYViewController.m; sourceTree = "<group>"; };
+		8AA4DC64199F7AA500B2D672 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AA4DC6A199F7AA500B2D672 /* LYMenuDrawerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMenuDrawerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA4DC6B199F7AA500B2D672 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8AA4DC73199F7AA500B2D672 /* LYMenuDrawerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LYMenuDrawerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		8AA4DC75199F7AA500B2D672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AA4DC77199F7AA500B2D672 /* LYMenuDrawerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMenuDrawerDemoTests.m; sourceTree = "<group>"; };
+		8AA4DC82199F7B5100B2D672 /* btn_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_menu.png; sourceTree = "<group>"; };
+		8AA4DC83199F7B5100B2D672 /* btn_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_menu@2x.png"; sourceTree = "<group>"; };
+		8AA4DC86199F7B5100B2D672 /* LYMenuDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMenuDrawerController.h; sourceTree = "<group>"; };
+		8AA4DC87199F7B5100B2D672 /* LYMenuDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMenuDrawerController.m; sourceTree = "<group>"; };
+		8AA4DC88199F7B5100B2D672 /* LYMenuDrawerDelegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMenuDrawerDelegation.h; sourceTree = "<group>"; };
+		8AA4DC8B199F7B5100B2D672 /* MenuDrawer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuDrawer.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AA4DC46199F7AA500B2D672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4DC4F199F7AA500B2D672 /* CoreGraphics.framework in Frameworks */,
+				8AA4DC51199F7AA500B2D672 /* UIKit.framework in Frameworks */,
+				8AA4DC4D199F7AA500B2D672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA4DC67199F7AA500B2D672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4DC6C199F7AA500B2D672 /* XCTest.framework in Frameworks */,
+				8AA4DC6E199F7AA500B2D672 /* UIKit.framework in Frameworks */,
+				8AA4DC6D199F7AA500B2D672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AA4DC40199F7AA500B2D672 = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC52199F7AA500B2D672 /* LYMenuDrawerDemo */,
+				8AA4DC71199F7AA500B2D672 /* LYMenuDrawerDemoTests */,
+				8AA4DC4B199F7AA500B2D672 /* Frameworks */,
+				8AA4DC4A199F7AA500B2D672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA4DC4A199F7AA500B2D672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC49199F7AA500B2D672 /* LYMenuDrawerDemo.app */,
+				8AA4DC6A199F7AA500B2D672 /* LYMenuDrawerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AA4DC4B199F7AA500B2D672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC4C199F7AA500B2D672 /* Foundation.framework */,
+				8AA4DC4E199F7AA500B2D672 /* CoreGraphics.framework */,
+				8AA4DC50199F7AA500B2D672 /* UIKit.framework */,
+				8AA4DC6B199F7AA500B2D672 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA4DC52199F7AA500B2D672 /* LYMenuDrawerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC81199F7B5100B2D672 /* LYMenuDrawer */,
+				8AA4DC5B199F7AA500B2D672 /* LYAppDelegate.h */,
+				8AA4DC5C199F7AA500B2D672 /* LYAppDelegate.m */,
+				8AA4DC61199F7AA500B2D672 /* LYViewController.h */,
+				8AA4DC62199F7AA500B2D672 /* LYViewController.m */,
+				8AA4DC64199F7AA500B2D672 /* Images.xcassets */,
+				8AA4DC53199F7AA500B2D672 /* Supporting Files */,
+			);
+			path = LYMenuDrawerDemo;
+			sourceTree = "<group>";
+		};
+		8AA4DC53199F7AA500B2D672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC54199F7AA500B2D672 /* LYMenuDrawerDemo-Info.plist */,
+				8AA4DC55199F7AA500B2D672 /* InfoPlist.strings */,
+				8AA4DC58199F7AA500B2D672 /* main.m */,
+				8AA4DC5A199F7AA500B2D672 /* LYMenuDrawerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AA4DC71199F7AA500B2D672 /* LYMenuDrawerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC77199F7AA500B2D672 /* LYMenuDrawerDemoTests.m */,
+				8AA4DC72199F7AA500B2D672 /* Supporting Files */,
+			);
+			path = LYMenuDrawerDemoTests;
+			sourceTree = "<group>";
+		};
+		8AA4DC72199F7AA500B2D672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC73199F7AA500B2D672 /* LYMenuDrawerDemoTests-Info.plist */,
+				8AA4DC74199F7AA500B2D672 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AA4DC81199F7B5100B2D672 /* LYMenuDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4DC82199F7B5100B2D672 /* btn_menu.png */,
+				8AA4DC83199F7B5100B2D672 /* btn_menu@2x.png */,
+				8AA4DC86199F7B5100B2D672 /* LYMenuDrawerController.h */,
+				8AA4DC87199F7B5100B2D672 /* LYMenuDrawerController.m */,
+				8AA4DC88199F7B5100B2D672 /* LYMenuDrawerDelegation.h */,
+				8AA4DC8B199F7B5100B2D672 /* MenuDrawer.storyboard */,
+			);
+			path = LYMenuDrawer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AA4DC48199F7AA500B2D672 /* LYMenuDrawerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA4DC7B199F7AA500B2D672 /* Build configuration list for PBXNativeTarget "LYMenuDrawerDemo" */;
+			buildPhases = (
+				8AA4DC45199F7AA500B2D672 /* Sources */,
+				8AA4DC46199F7AA500B2D672 /* Frameworks */,
+				8AA4DC47199F7AA500B2D672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYMenuDrawerDemo;
+			productName = LYMenuDrawerDemo;
+			productReference = 8AA4DC49199F7AA500B2D672 /* LYMenuDrawerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AA4DC69199F7AA500B2D672 /* LYMenuDrawerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA4DC7E199F7AA500B2D672 /* Build configuration list for PBXNativeTarget "LYMenuDrawerDemoTests" */;
+			buildPhases = (
+				8AA4DC66199F7AA500B2D672 /* Sources */,
+				8AA4DC67199F7AA500B2D672 /* Frameworks */,
+				8AA4DC68199F7AA500B2D672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AA4DC70199F7AA500B2D672 /* PBXTargetDependency */,
+			);
+			name = LYMenuDrawerDemoTests;
+			productName = LYMenuDrawerDemoTests;
+			productReference = 8AA4DC6A199F7AA500B2D672 /* LYMenuDrawerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AA4DC41199F7AA500B2D672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					8AA4DC69199F7AA500B2D672 = {
+						TestTargetID = 8AA4DC48199F7AA500B2D672;
+					};
+				};
+			};
+			buildConfigurationList = 8AA4DC44199F7AA500B2D672 /* Build configuration list for PBXProject "LYMenuDrawerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AA4DC40199F7AA500B2D672;
+			productRefGroup = 8AA4DC4A199F7AA500B2D672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AA4DC48199F7AA500B2D672 /* LYMenuDrawerDemo */,
+				8AA4DC69199F7AA500B2D672 /* LYMenuDrawerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AA4DC47199F7AA500B2D672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4DC65199F7AA500B2D672 /* Images.xcassets in Resources */,
+				8AA4DC57199F7AA500B2D672 /* InfoPlist.strings in Resources */,
+				8AA4DC91199F7B5100B2D672 /* MenuDrawer.storyboard in Resources */,
+				8AA4DC8D199F7B5100B2D672 /* btn_menu@2x.png in Resources */,
+				8AA4DC8C199F7B5100B2D672 /* btn_menu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA4DC68199F7AA500B2D672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4DC76199F7AA500B2D672 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AA4DC45199F7AA500B2D672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4DC59199F7AA500B2D672 /* main.m in Sources */,
+				8AA4DC8F199F7B5100B2D672 /* LYMenuDrawerController.m in Sources */,
+				8AA4DC5D199F7AA500B2D672 /* LYAppDelegate.m in Sources */,
+				8AA4DC63199F7AA500B2D672 /* LYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA4DC66199F7AA500B2D672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4DC78199F7AA500B2D672 /* LYMenuDrawerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AA4DC70199F7AA500B2D672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AA4DC48199F7AA500B2D672 /* LYMenuDrawerDemo */;
+			targetProxy = 8AA4DC6F199F7AA500B2D672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AA4DC55199F7AA500B2D672 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA4DC56199F7AA500B2D672 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AA4DC74199F7AA500B2D672 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA4DC75199F7AA500B2D672 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AA4DC79199F7AA500B2D672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AA4DC7A199F7AA500B2D672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AA4DC7C199F7AA500B2D672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYMenuDrawerDemo/LYMenuDrawerDemo-Prefix.pch";
+				INFOPLIST_FILE = "LYMenuDrawerDemo/LYMenuDrawerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AA4DC7D199F7AA500B2D672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYMenuDrawerDemo/LYMenuDrawerDemo-Prefix.pch";
+				INFOPLIST_FILE = "LYMenuDrawerDemo/LYMenuDrawerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AA4DC7F199F7AA500B2D672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LYMenuDrawerDemo.app/LYMenuDrawerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYMenuDrawerDemo/LYMenuDrawerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LYMenuDrawerDemoTests/LYMenuDrawerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8AA4DC80199F7AA500B2D672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LYMenuDrawerDemo.app/LYMenuDrawerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYMenuDrawerDemo/LYMenuDrawerDemo-Prefix.pch";
+				INFOPLIST_FILE = "LYMenuDrawerDemoTests/LYMenuDrawerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AA4DC44199F7AA500B2D672 /* Build configuration list for PBXProject "LYMenuDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA4DC79199F7AA500B2D672 /* Debug */,
+				8AA4DC7A199F7AA500B2D672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA4DC7B199F7AA500B2D672 /* Build configuration list for PBXNativeTarget "LYMenuDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA4DC7C199F7AA500B2D672 /* Debug */,
+				8AA4DC7D199F7AA500B2D672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AA4DC7E199F7AA500B2D672 /* Build configuration list for PBXNativeTarget "LYMenuDrawerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA4DC7F199F7AA500B2D672 /* Debug */,
+				8AA4DC80199F7AA500B2D672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AA4DC41199F7AA500B2D672 /* Project object */;
+}
